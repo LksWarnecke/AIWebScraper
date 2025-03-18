@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 
-SBR_WEBDRIVER = "https://brd-customer-hl_ff374256-zone-ai_scraper:37xf3d4wl7rt@brd.superproxy.io:9515"
+SBR_WEBDRIVER = 
 
 
 def scrape_website(website):
