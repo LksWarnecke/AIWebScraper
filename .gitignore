@@ -1,0 +1,21 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore virtual environment directory (webscraper)
+webscraper/
+
+# Ignore installed packages (streamlit, langchain, etc.)
+# You don't need to include them here, Git just ignores folders like these
+# You will generally want to track only your requirements.txt or environment file
+# instead of individual dependencies
+streamlit/
+langchain/
+langchain_ollama/
+selenium/
+beautifulsoup4/
+lxml/
+html5lib/
+python-dotenv/
+
+# Ignore chromedriver executable
+chromedriver.exe
